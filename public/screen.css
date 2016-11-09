@@ -1,8 +1,132 @@
-html {
-  text-size-adjust: 100%;
+
+  #top-nav
+{
+    margin:auto;
+    padding:40px;
+    list-style:none;
+    font-family: Arial, Helvetica, sans-serif;
+    width:800px;
+    clear:both;
+
+    
+}
+    #top-nav li {
+   display:inline;
+          }
+
+    #top-nav li a {
+
+        text-decoration:none;
+        padding: 30px;
+        width:100px;
+        background:#F9F9F9;
+        color:black;
+        float:left;
+    }
+
+    #top-nav li a:active {
+        color: red;
+    }
+    .Intro {
+        clear:both;
+        padding:15px;
+        margin:auto;
+        width:320px;
+    }
+
+    .Details {
+    font: bold;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5A5A5A;
+    margin:25;
+    text-align:center;
+
+    }
+
+    .Beautiful {
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5A5A5A;
+    margin:25;
+    text-align:center;
+    }
+
+    .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 600px;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin:auto;
+    
 }
 
-body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+.flex-item {
+    
+    align-content:space-between;
+    padding:5px;
+    border:hidden;
+}
+
+.puppy1 {
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    width:300px;
+}
+.puppy2 {
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    width:100px;
+}
+
+.puppy3 {
+    -webkit-align-self: center;
+    align-self: center;
+    width:100px;
+}
+
+.puppy4 {
+    -webkit-align-self: baseline;
+    align-self: stretch;
+    height:200px;
+}
+
+.puppy5 {
+    -webkit-align-self: stretch;
+    align-self: flex-end;
+   
+}
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 100px;
+    flex-wrap:wrap;
+    flex-direction:column;
+    margin:auto;
+
+}
+
+.flex-item2 {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+.WhatsNew {
+    font:bolder;
+    color:red;
+    font:bold;
+}
+.Standard{
+    color:#5f5f5f;
+    flex-wrap:wrap;
+}
+.Modern {
+    color:#5f5f5f;
+    font:bolder;
+    width:200px;
+
 }
